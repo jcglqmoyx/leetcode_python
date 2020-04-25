@@ -11,7 +11,7 @@ class Solution:
 
 test = Solution()
 print(test.isPalindrome(0))
-print(test.isPalindrome(12))
+print(test.isPalindrome(123))
 print(test.isPalindrome(313))
 print(test.isPalindrome(112211))
 print(test.isPalindrome(-3))
