@@ -7,8 +7,7 @@ class Solution:
         if isNeg:
             x = -x
         while x:
-            last_digit = x % 10
-            num = (num + last_digit) * 10
+            num = (num + x%10) * 10
             x //= 10
         res = num // 10
         if not isNeg:
