@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         map = {}
@@ -7,3 +10,9 @@ class Solution:
                 return [i, map[diff]]
             map[nums[i]] = i
         return None
+
+
+nums = [1, 4, 5, 7, 10]
+target = 15
+test = Solution()
+print(test.twoSum(nums, target))
