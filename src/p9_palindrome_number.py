@@ -9,9 +9,8 @@ class Solution:
         return x == reverted_number or x == reverted_number // 10
 
 
-test = Solution()
-print(test.isPalindrome(0))
-print(test.isPalindrome(123))
-print(test.isPalindrome(313))
-print(test.isPalindrome(112211))
-print(test.isPalindrome(-3))
+print(Solution().isPalindrome(0))
+print(Solution().isPalindrome(123))
+print(Solution().isPalindrome(313))
+print(Solution().isPalindrome(112211))
+print(Solution().isPalindrome(-3))

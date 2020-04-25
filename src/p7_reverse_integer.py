@@ -19,9 +19,8 @@ class Solution:
             return 0 if -res < min else -res
 
 
-test = Solution()
-print(test.reverse(1))
-print(test.reverse(10))
-print(test.reverse(1234))
-print(test.reverse(sys.maxsize))
-print(test.reverse(-sys.maxsize - 1))
+print(Solution().reverse(1))
+print(Solution().reverse(10))
+print(Solution().reverse(1234))
+print(Solution().reverse(sys.maxsize))
+print(Solution().reverse(-sys.maxsize - 1))

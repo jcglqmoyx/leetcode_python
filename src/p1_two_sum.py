@@ -14,5 +14,4 @@ class Solution:
 
 nums = [1, 4, 5, 7, 10]
 target = 15
-test = Solution()
-print(test.twoSum(nums, target))
+print(Solution().twoSum(nums, target))
