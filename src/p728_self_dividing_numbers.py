@@ -17,6 +17,3 @@ class Solution:
                 return False
             num //= 10
         return True
-
-
-print(Solution().selfDividingNumbers(1, 22))

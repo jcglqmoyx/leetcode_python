@@ -12,10 +12,3 @@ class Solution:
             else:
                 stack.append(ch)
         return not stack
-
-
-print(Solution().isValid('()'))
-print(Solution().isValid('()[]{}'))
-print(Solution().isValid('(]'))
-print(Solution().isValid('([)]'))
-print(Solution().isValid('(){[]}'))

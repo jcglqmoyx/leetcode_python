@@ -14,10 +14,3 @@ class Solution:
             else:
                 high = mid
         return mid
-
-
-print(Solution().mySqrt(1))
-print(Solution().mySqrt(2))
-print(Solution().mySqrt(25))
-print(Solution().mySqrt(26))
-print(Solution().mySqrt(sys.maxsize))

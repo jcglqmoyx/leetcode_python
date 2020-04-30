@@ -16,7 +16,3 @@ class Solution:
             if ch in J:
                 count += 1
         return count
-
-
-print(Solution().numJewelsInStones('aA', 'aAAbbbb'))
-print(Solution().numJewelsInStones('z', 'ZZ'))

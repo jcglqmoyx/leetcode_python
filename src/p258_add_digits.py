@@ -4,10 +4,3 @@ class Solution:
             return 9
         else:
             return num % 9
-
-
-print(Solution().addDigits(0))
-print(Solution().addDigits(9))
-print(Solution().addDigits(10))
-print(Solution().addDigits(18))
-print(Solution().addDigits(18344))

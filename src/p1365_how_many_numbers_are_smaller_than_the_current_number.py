@@ -11,8 +11,3 @@ class Solution:
         for i in range(len(nums)):
             ret[i] = count[nums[i]]
         return ret
-
-
-print(Solution().smallerNumbersThanCurrent([8, 1, 2, 2, 3]))
-print(Solution().smallerNumbersThanCurrent([6, 5, 4, 8]))
-print(Solution().smallerNumbersThanCurrent([7, 7, 7, 7]))

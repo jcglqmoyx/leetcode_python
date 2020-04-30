@@ -21,9 +21,3 @@ class Solution:
             if d['L'] == d['R']:
                 d['r'] += 1
         return d['r']
-
-
-print(Solution().balancedStringSplit('RLRRLLRLRL'))
-print(Solution().balancedStringSplit('RLLLLRRRLR'))
-print(Solution().balancedStringSplit('LLLLRRRR'))
-print(Solution().balancedStringSplit('RLRRRLLRLL'))

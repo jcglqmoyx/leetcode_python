@@ -25,7 +25,3 @@ class Solution:
             if (len(str(num)) & 1) == 0:
                 count += 1
         return count
-
-
-print(Solution().findNumbers([12, 345, 2, 6, 7896]))
-print(Solution().findNumbers([555, 901, 482, 1771]))

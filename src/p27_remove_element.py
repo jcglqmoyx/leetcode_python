@@ -11,6 +11,3 @@ class Solution:
                 count += 1
         for i in range(flag, len(nums)): nums[flag] = 0
         return count
-
-
-print(Solution().removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2))

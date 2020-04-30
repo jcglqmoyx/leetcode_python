@@ -19,10 +19,3 @@ class Solution:
                 nums1[i] = nums2[b]
                 b -= 1
             i -= 1
-
-
-nums1 = [1, 2, 3, 0, 0, 0]
-nums2 = [2, 5, 6]
-Solution().merge(nums1, 3, nums2, 3)
-for num in nums1:
-    print(num, end=' ')

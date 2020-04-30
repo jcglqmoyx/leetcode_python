@@ -8,10 +8,3 @@ class Solution:
             else:
                 sum += values[s[i]]
         return sum
-
-
-print(Solution().romanToInt('III'))
-print(Solution().romanToInt('IV'))
-print(Solution().romanToInt('IX'))
-print(Solution().romanToInt('LVIII'))
-print(Solution().romanToInt('MCMXCIV'))

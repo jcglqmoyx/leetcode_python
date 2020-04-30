@@ -8,8 +8,3 @@ class Solution:
                 num -= 1
             step += 1
         return step
-
-
-print(Solution().numberOfSteps(14))
-print(Solution().numberOfSteps(8))
-print(Solution().numberOfSteps(123))

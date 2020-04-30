@@ -8,8 +8,3 @@ class Solution:
             else:
                 ret += c
         return ret
-
-
-print(Solution().toLowerCase('Hello'))
-print(Solution().toLowerCase('here'))
-print(Solution().toLowerCase('LOVELY'))

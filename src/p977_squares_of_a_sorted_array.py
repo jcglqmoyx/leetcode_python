@@ -14,7 +14,3 @@ class Solution:
         #         low += 1
         # return ret
         return sorted(list(i * i for i in A))
-
-
-print(Solution().sortedSquares([-4, -1, 0, 3, 10]))
-print(Solution().sortedSquares([-7, -3, 2, 3, 11]))

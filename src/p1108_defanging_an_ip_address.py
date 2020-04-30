@@ -13,7 +13,3 @@ class Solution:
         address = address.split(".")
         s = "[.]".join(address)
         return s
-
-
-print(Solution().defangIPaddr('1.1.1.1'))
-print(Solution().defangIPaddr('255.100.50.0'))

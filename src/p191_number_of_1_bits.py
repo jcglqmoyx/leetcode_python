@@ -9,8 +9,3 @@ class Solution:
                 ret += 1
             n >>= 1
         return ret
-
-
-print(Solution().hammingWeight(-3))
-print(Solution().hammingWeight(sys.maxsize))
-print(Solution().hammingWeight(13))

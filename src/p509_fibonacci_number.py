@@ -22,8 +22,3 @@ class Solution:
             a = b
             b = c
         return b
-
-
-print(Solution().fib(2))
-print(Solution().fib(3))
-print(Solution().fib(4))

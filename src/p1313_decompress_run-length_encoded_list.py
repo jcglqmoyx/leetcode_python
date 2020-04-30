@@ -17,7 +17,3 @@ class Solution:
         for i in range(0, len(nums), 2):
             t += [nums[i + 1]] * nums[i]
         return t
-
-
-print(Solution().decompressRLElist([1, 2, 3, 4]))
-print(Solution().decompressRLElist([1, 1, 2, 3]))

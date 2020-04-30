@@ -10,8 +10,3 @@ class Solution:
                 return [i, map[diff]]
             map[nums[i]] = i
         return None
-
-
-nums = [1, 4, 5, 7, 10]
-target = 15
-print(Solution().twoSum(nums, target))

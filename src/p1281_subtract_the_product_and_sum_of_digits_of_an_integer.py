@@ -7,7 +7,3 @@ class Solution:
             sum += last_digit
             n //= 10
         return product - sum
-
-
-print(Solution().subtractProductAndSum(234))
-print(Solution().subtractProductAndSum(4421))

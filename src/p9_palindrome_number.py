@@ -7,10 +7,3 @@ class Solution:
             reverted_number = reverted_number * 10 + x % 10
             x //= 10
         return x == reverted_number or x == reverted_number // 10
-
-
-print(Solution().isPalindrome(0))
-print(Solution().isPalindrome(123))
-print(Solution().isPalindrome(313))
-print(Solution().isPalindrome(112211))
-print(Solution().isPalindrome(-3))

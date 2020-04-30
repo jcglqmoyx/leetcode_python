@@ -17,10 +17,3 @@ class Solution:
             return 0 if res > max else res
         else:
             return 0 if -res < min else -res
-
-
-print(Solution().reverse(1))
-print(Solution().reverse(10))
-print(Solution().reverse(1234))
-print(Solution().reverse(sys.maxsize))
-print(Solution().reverse(-sys.maxsize - 1))
