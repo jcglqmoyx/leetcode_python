@@ -1,20 +1,20 @@
-from typing import List
+from typing import List, Dict
 
 
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         length = 0
+        map = {}
+        for c in chars:
+            map[c] = chars.count(c)
         for word in words:
-            if self.form_string(word, chars):
+            if self.form_string(word, map):
                 length += len(word)
         return length
 
-    def form_string(self, word: str, chars: str) -> bool:
-        map = [0] * 123
-        for ch in chars:
-            map[ord(ch)] += 1
+    def form_string(self, word: str, map: Dict[str, int]) -> bool:
+        count = {}
         for ch in word:
-            map[ord(ch)] -= 1
-            if map[ord(ch)] < 0:
+            if word.count(ch) > map[ch]:
                 return False
         return True
