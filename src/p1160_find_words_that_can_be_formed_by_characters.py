@@ -3,7 +3,7 @@ from typing import List, Dict
 
 def form_string(word: str, map: Dict[str, int]) -> bool:
     for ch in word:
-        if not map.__contains__(ch) or word.count(ch) > map[ch]:
+        if not ch in map or word.count(ch) > map[ch]:
             return False
     return True
 

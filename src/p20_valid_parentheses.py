@@ -4,7 +4,7 @@ class Solution:
         stack = []
         for i in range(len(s)):
             ch = s[i]
-            if map.__contains__(ch):
+            if ch in map:
                 if not stack or stack[-1] != map[ch]:
                     return False
                 else:

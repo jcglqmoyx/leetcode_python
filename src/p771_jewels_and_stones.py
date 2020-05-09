@@ -5,7 +5,7 @@
 #             map[ch] = 1
 #         count = 0
 #         for ch in S:
-#             if map.__contains__(ch):
+#             if ch in map:
 #                 count += 1
 #         return count
 
