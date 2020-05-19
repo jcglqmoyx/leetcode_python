@@ -1,4 +1,4 @@
-name = '1399. Count Largest Group'
+name = '492. Construct the Rectangle'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
@@ -25,10 +25,3 @@ print(java_cpp_name)
 # content = 'public class ' + java_cpp_name + '{}'
 # java_file.write(bytes(content))
 # java_file.close()
-
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
