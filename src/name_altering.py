@@ -1,4 +1,4 @@
-name = '49. Group Anagrams'
+name = '1347. Minimum Number of Steps to Make Two Strings Anagram'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
