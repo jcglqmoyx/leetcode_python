@@ -1,4 +1,4 @@
-name = '492. Construct the Rectangle'
+name = '49. Group Anagrams'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
@@ -12,7 +12,6 @@ java_cpp_name = java_cpp_name.replace(' ', '_', 1)
 java_cpp_name = java_cpp_name.replace(' ', '')
 print(java_cpp_name)
 
-
 # py_file = '/home/jcglqmoyx/projects/pycharm_projects/leetcode/src/' + name + '.py'
 # os.mknod(py_file)
 #
@@ -25,3 +24,8 @@ print(java_cpp_name)
 # content = 'public class ' + java_cpp_name + '{}'
 # java_file.write(bytes(content))
 # java_file.close()
+url = 'https://wttr.in'
+import requests
+
+res = requests.get(url)
+print(res.text)
