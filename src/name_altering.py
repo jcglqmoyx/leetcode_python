@@ -1,4 +1,4 @@
-name = '1347. Minimum Number of Steps to Make Two Strings Anagram'
+name = '1317. Convert Integer to the Sum of Two No-Zero Integers'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
