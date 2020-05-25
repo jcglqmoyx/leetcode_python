@@ -1,4 +1,4 @@
-name = '451. Sort Characters By Frequency'
+name = '1089. Duplicate Zeros'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
