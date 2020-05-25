@@ -24,8 +24,3 @@ print(java_cpp_name)
 # content = 'public class ' + java_cpp_name + '{}'
 # java_file.write(bytes(content))
 # java_file.close()
-url = 'https://wttr.in'
-import requests
-
-res = requests.get(url)
-print(res.text)
