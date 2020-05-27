@@ -1,4 +1,4 @@
-name = '575. Distribute Candies'
+name = '283. Move Zeroes'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
