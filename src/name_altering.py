@@ -1,4 +1,4 @@
-name = '283. Move Zeroes'
+name = '172. Factorial Trailing Zeroes'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
