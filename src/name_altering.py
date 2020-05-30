@@ -1,4 +1,4 @@
-name = '1021. Remove Outermost Parentheses'
+name = '1047. Remove All Adjacent Duplicates In String'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
