@@ -1,4 +1,4 @@
-name = '1047. Remove All Adjacent Duplicates In String'
+name = '1417. Reformat The String'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
