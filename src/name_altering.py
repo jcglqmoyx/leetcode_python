@@ -1,4 +1,4 @@
-name = '1417. Reformat The String'
+name = '205. Isomorphic Strings'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
