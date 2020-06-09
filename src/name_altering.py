@@ -1,4 +1,4 @@
-name = '205. Isomorphic Strings'
+name = '1337. The K Weakest Rows in a Matrix'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
