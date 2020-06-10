@@ -1,4 +1,4 @@
-name = '349. Intersection of Two Arrays'
+name = '268. Missing Number'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
