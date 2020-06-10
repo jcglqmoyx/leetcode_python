@@ -1,4 +1,4 @@
-name = '1337. The K Weakest Rows in a Matrix'
+name = '349. Intersection of Two Arrays'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
