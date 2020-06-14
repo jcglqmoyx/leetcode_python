@@ -1,4 +1,4 @@
-name = '203. Remove Linked List Elements'
+name = '350. Intersection of Two Arrays II'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
