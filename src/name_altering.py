@@ -1,4 +1,4 @@
-name = '350. Intersection of Two Arrays II'
+name = '783. Minimum Distance Between BST Nodes'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
