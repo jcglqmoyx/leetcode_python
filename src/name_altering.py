@@ -1,4 +1,4 @@
-name = '783. Minimum Distance Between BST Nodes'
+name = '929. Unique Email Addresses'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
