@@ -1,4 +1,4 @@
-name = '1475. Final Prices With a Special Discount in a Shop'
+name = '849. Maximize Distance to Closest Person'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
