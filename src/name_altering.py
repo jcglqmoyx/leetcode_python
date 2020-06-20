@@ -1,4 +1,4 @@
-name = '929. Unique Email Addresses'
+name = '1475. Final Prices With a Special Discount in a Shop'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
