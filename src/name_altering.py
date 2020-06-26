@@ -1,4 +1,4 @@
-name = '849. Maximize Distance to Closest Person'
+name = '412. Fizz Buzz'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
