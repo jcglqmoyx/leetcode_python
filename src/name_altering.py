@@ -1,4 +1,4 @@
-name = '661. Image Smoother'
+name = '883. Projection Area of 3D Shapes'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
