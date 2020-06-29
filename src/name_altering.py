@@ -1,4 +1,4 @@
-name = '1122. Relative Sort Array'
+name = '661. Image Smoother'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
