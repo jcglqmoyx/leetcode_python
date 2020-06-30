@@ -1,4 +1,4 @@
-name = '1078. Occurrences After Bigram'
+name = '496. Next Greater Element I'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
