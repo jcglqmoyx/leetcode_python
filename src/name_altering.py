@@ -1,4 +1,4 @@
-name = '883. Projection Area of 3D Shapes'
+name = '1078. Occurrences After Bigram'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
