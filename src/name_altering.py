@@ -1,4 +1,4 @@
-name = '496. Next Greater Element I'
+name = '1502. Can Make Arithmetic Progression From Sequence'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
