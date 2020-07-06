@@ -1,4 +1,4 @@
-name = '1502. Can Make Arithmetic Progression From Sequence'
+name = '965. Univalued Binary Tree'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
