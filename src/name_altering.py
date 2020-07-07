@@ -1,4 +1,4 @@
-name = '884. Uncommon Words from Two Sentences'
+name = '1046. Last Stone Weight'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
