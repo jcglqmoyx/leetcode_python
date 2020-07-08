@@ -1,4 +1,4 @@
-name = '1046. Last Stone Weight'
+name = '824. Goat Latin'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
