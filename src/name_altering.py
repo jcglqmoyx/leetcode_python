@@ -1,4 +1,4 @@
-name = '824. Goat Latin'
+name = '1103. Distribute Candies to People'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
