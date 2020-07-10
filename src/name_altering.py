@@ -1,4 +1,4 @@
-name = '1103. Distribute Candies to People'
+name = '559. Maximum Depth of N-ary Tree'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
