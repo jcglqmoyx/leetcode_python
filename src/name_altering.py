@@ -1,4 +1,4 @@
-name = '559. Maximum Depth of N-ary Tree'
+name = '892. Surface Area of 3D Shapes'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
