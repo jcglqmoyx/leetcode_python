@@ -1,4 +1,4 @@
-name = '917. Reverse Only Letters'
+name = '693. Binary Number with Alternating Bits'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
