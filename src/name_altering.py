@@ -1,4 +1,4 @@
-name = '693. Binary Number with Alternating Bits'
+name = '976. Largest Perimeter Triangle'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
