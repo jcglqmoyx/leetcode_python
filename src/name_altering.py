@@ -1,4 +1,4 @@
-name = '976. Largest Perimeter Triangle'
+name = '1513. Number of Substrings With Only 1s'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
@@ -11,3 +11,5 @@ java_cpp_name = java_cpp_name.title()
 java_cpp_name = java_cpp_name.replace(' ', '_', 1)
 java_cpp_name = java_cpp_name.replace(' ', '')
 print(java_cpp_name)
+
+
