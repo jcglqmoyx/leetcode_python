@@ -1,4 +1,4 @@
-name = '1513. Number of Substrings With Only 1s'
+name = '1507. Reformat Date'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
