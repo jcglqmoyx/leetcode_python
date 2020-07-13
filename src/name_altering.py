@@ -1,4 +1,4 @@
-name = '1507. Reformat Date'
+name = '970. Powerful Integers'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
