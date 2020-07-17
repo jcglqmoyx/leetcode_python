@@ -1,4 +1,4 @@
-name = '151. Reverse Words in a String'
+name = '1395. Count Number of Teams'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
