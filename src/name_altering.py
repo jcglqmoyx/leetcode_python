@@ -1,4 +1,4 @@
-name = '1395. Count Number of Teams'
+name = '867. Transpose Matrix'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
