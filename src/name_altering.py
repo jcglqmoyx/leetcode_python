@@ -1,4 +1,4 @@
-name = '896. Monotonic Array'
+name = '840. Magic Squares In Grid'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
