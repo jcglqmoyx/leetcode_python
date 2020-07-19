@@ -1,4 +1,4 @@
-name = '867. Transpose Matrix'
+name = '896. Monotonic Array'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
