@@ -1,4 +1,4 @@
-name = '840. Magic Squares In Grid'
+name = '1518. Water Bottles'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
@@ -11,5 +11,8 @@ java_cpp_name = java_cpp_name.title()
 java_cpp_name = java_cpp_name.replace(' ', '_', 1)
 java_cpp_name = java_cpp_name.replace(' ', '')
 print(java_cpp_name)
+
+
+
 
 
