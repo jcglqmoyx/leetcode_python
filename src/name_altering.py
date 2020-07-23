@@ -1,4 +1,4 @@
-name = '347. Top K Frequent Elements'
+name = '1496. Path Crossing'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
