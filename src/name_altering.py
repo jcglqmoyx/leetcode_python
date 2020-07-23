@@ -1,4 +1,4 @@
-name = '103. Binary Tree Zigzag Level Order Traversal'
+name = '347. Top K Frequent Elements'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
