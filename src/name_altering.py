@@ -1,4 +1,4 @@
-name = '1496. Path Crossing'
+name = '1360. Number of Days Between Two Dates'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
