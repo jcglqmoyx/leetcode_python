@@ -1,4 +1,4 @@
-name = '1137. N-th Tribonacci Number'
+name = '598. Range Addition II'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
