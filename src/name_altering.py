@@ -1,4 +1,4 @@
-name = '1528. Shuffle String'
+name = '1422. Maximum Score After Splitting a String'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')

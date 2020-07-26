@@ -1,18 +1,16 @@
 class Solution:
     def maxScore(self, s: str) -> int:
-        left, right = [0] * len(s), [0] * len(s)
-        left[0] = 0
-        right[-1] = 0
-        maximum_score = 0
-        left_max = right_max = 0
+        zeros, ones = [0] * (len(s) + 1), [0] * (len(s) + 1)
+        count_zero = count_one = 0
         for i in range(len(s) - 1):
             if s[i] == '0':
-                left[i + 1] += left_max + 1
-                left_max = left[i]
-        for i in range(len(s) - 1, -1, -1):
+                count_zero += 1
+                zeros[i + 1] = count_zero
+        for i in range(len(s) - 1, 0, -1):
             if s[i] == '1':
-                right[i]
-                right[i - 1] += 1
-        for i in range(len(s)):
-            maximum_score = max(maximum_score, left[i] + right[i])
-        return maximum_score
+                count_one += 1
+                ones[i] = count_one
+        max_score = 0
+        for i in range(1, len(s)):
+            max_score = max(zeros[i] + ones[i], max_score)
+        return max_score
