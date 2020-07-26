@@ -1,4 +1,4 @@
-name = '598. Range Addition II'
+name = '1528. Shuffle String'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
