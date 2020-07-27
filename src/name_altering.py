@@ -1,4 +1,4 @@
-name = '643. Maximum Average Subarray I'
+name = '1128. Number of Equivalent Domino Pairs'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
