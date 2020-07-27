@@ -1,4 +1,4 @@
-name = '1422. Maximum Score After Splitting a String'
+name = '643. Maximum Average Subarray I'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
