@@ -1,0 +1,13 @@
+from typing import List
+
+
+class Solution:
+    def countGoodTriplets(self, arr: List[int], a: int, b: int, c: int) -> int:
+        number = 0
+        for i in range(len(arr) - 2):
+            for j in range(i + 1, len(arr) - 1):
+                if abs(arr[i] - arr[j]) <= a:
+                    for k in range(j + 1, len(arr)):
+                        if abs(arr[j] - arr[k]) <= b and abs(arr[i] - arr[k]) <= c:
+                            number += 1
+        return number

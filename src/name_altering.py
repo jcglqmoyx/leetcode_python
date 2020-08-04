@@ -1,4 +1,4 @@
-name = '1128. Number of Equivalent Domino Pairs'
+name = '1534. Count Good Triplets'
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
