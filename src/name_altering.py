@@ -1,4 +1,5 @@
-name = '1534. Count Good Triplets'
+# name = '1534. Count Good Triplets'
+name = input('题目:\n')
 name = 'p' + name
 name = name.replace('. ', '_')
 name = name.replace(' ', '_')
